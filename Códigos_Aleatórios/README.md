@@ -1,8 +1,7 @@
 ## Números_Primos:
 Este código retorna a lista de números primos até um limite estabelecido pelo usuário.<br> 
 Exemplo: Se o usuário deseja saber a lista de números primos até o número 100 o código retorna<br>
-A lista de numeros primos é:<br>
-[2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97]
+A lista de numeros primos é:[2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97]
 
 ## Constante_Kaprekar:
 Retorna as iterações necessárias até atigir a Constante Kaprekar (6174) a partir de um número qualquer de 4 digitos.<br>
