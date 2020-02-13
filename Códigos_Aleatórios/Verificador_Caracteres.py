@@ -22,7 +22,3 @@ else:
 	print("A palavra não possui caracteres iguais!")
 
 print(palavra)
-
-
-
-
