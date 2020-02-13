@@ -7,7 +7,9 @@ Created on Sat Sep 28 22:38:09 2019
 
 # Lista de Números Primos
 
-numb = int(input("digite um número limite:"))
+import os
+
+numb = int(input("digite um número limite: "))
 
 odd_numb = []       # impares
 even_numb = []      # pares
@@ -30,5 +32,8 @@ for x in odd_numb:                         # Monta o vetor contendo todos os nú
         if (x % y == 0):
             prime_numb.append(x)
 
-print("\n São %.i Números Primos" % (len(prime_numb)))
-print("\n A lista de numeros primos é: ", str(prime_numb))
+print("\n São %.i Números Primos até o %.i" % (len(prime_numb),numb))
+print(" A lista de numeros primos é: ", str(prime_numb))
+print("\n")
+
+os.system("pause")
