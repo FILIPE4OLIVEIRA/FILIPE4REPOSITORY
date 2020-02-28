@@ -10,8 +10,6 @@ Created on Sat Sep 28 22:38:09 2019
 import numpy
 import matplotlib.pyplot as plt
 
-Numb = int(input("digite um número limite: "))
-
 def Numeros_Primos(Numb):
     
     odd_numb = []       # impares
@@ -35,8 +33,8 @@ def Numeros_Primos(Numb):
             if (x % y == 0):
                 prime_numb.append(x)
 
-    P1 = print("\n São %.i Números Primos até o %.i" % (len(prime_numb),Numb))
-    P2 = print(" A lista de numeros primos é: ", str(prime_numb))
+    P1 = print("\n São %.i Números Primos até o Número %.i" % (len(prime_numb),Numb))
+    P2 = print(" Lista de Números Primos: ", str(prime_numb))
 
     # Plotagem do Gráfico dos Números Primos 
     plt.title('Gráfico dos Números Primos')
@@ -49,4 +47,4 @@ def Numeros_Primos(Numb):
 
     return(P1,P2)
 
-Numeros_Primos(Numb)
+Numeros_Primos(int(input("Digite um Número Limite: ")))
