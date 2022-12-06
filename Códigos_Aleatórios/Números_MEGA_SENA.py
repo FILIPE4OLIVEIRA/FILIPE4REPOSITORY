@@ -9,7 +9,7 @@ Created on Sat Jan 15 22:38:09 2020
 import random
 
 
-def numeros_mega(h=30):
+def numeros_mega(h=10):
     numb = []
     AllNumbs = []
     for i in range(h):
